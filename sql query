@@ -1,0 +1,11 @@
+create table todolist
+(
+    id          serial
+        primary key,
+    username    varchar(50) not null ,
+    description varchar(100) not null ,
+    time        varchar(50) not null ,
+    date        varchar(50) not null
+)
+
+DATABASE_NAME = test
